@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VendaBot PRO - Bot de Vendas para Discord</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .sidebar-item.active {
+        border-left: 4px solid hsl(227, 58%, 65%);
+        background-color: rgba(50, 53, 59, 1);
+      }
+      :root {
+        --discord-bg: #36393F;
+        --discord-sidebar: #2F3136;
+        --discord-primary: hsl(227, 58%, 65%);
+        --discord-success: #43B581;
+        --discord-error: #F04747;
+        --discord-warning: #FAA61A;
+        --discord-light: #DCDDDE;
+        --discord-muted: #72767D;
+        --discord-dark: #202225;
+        --discord-card: #40444B;
+        --discord-hover: #32353B;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
